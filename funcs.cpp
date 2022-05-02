@@ -1,6 +1,5 @@
 
 #include "funcs.h"
-
 #include <iostream>
 #include <vector>
 using namespace std;
@@ -13,7 +12,7 @@ std::vector<int> v;
 
 for (i = 0; i <= n-1; i++){
 
-  std::cout << i;
+  std::cout << i << ' ';
   v.push_back(i);
 
     }
@@ -30,7 +29,7 @@ for (int i : v) {
 
   if (i >= 0){
 
-    cout << i;
+    cout << i << ' ';
     c.push_back(i);
   }
 }
@@ -57,7 +56,7 @@ std::vector<int> sumPairWise(const std::vector<int> &v1, const std::vector<int> 
   {
 
     d = v1[i] + v2[i];
-    std::cout << d;
+    std::cout << d << ' ';
       c.push_back(d);
 
 
