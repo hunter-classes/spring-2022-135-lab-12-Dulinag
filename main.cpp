@@ -1,6 +1,6 @@
 
 #include "funcs.h"
-
+#include <vector>
 #include <iostream>
 #include <vector>
 
